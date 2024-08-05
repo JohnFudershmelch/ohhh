@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <!-- <button id="openModal">Нажми меня!</button> -->
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <button class="close">close</button>
+      <p>Привет, я всплывающее окно!</p>
+    </div>
+  </div>
+
+  <div class="pedro">
+    <div class="img"></div>
+    <p class="p_1">Hi Zhiger</p>
+  </div>
+  <p class="p_2">This is your playlist</p>
+
+  <div class="center">
+    <div class="Homage"></div>
+  </div>
+
+
+  
+
+  <!-- <audio controls>
+    <source src="Mild High Club - Homage.mp3">
+  </audio> -->
+
+
+  
+
+
+
+    <script>
+      const modal = document.querySelector('#modal');
+const btn = document.querySelector('#openModal');
+const close = document.querySelector('.close');
+
+btn.onclick = function () {
+  modal.style.display = 'block';
+};
+
+close.onclick = function () {
+  modal.style.display = 'none';
+};
+
+window.onclick = function (event) {
+  if (event.target == modal) {
+    modal.style.display = 'none';
+  }
+};
+    </script>
+</body>
+</html>

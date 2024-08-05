@@ -1,0 +1,106 @@
+
+
+@media (max-width:400px) {
+  .modal {
+    display: none;
+    position: fixed;
+    margin: 10%;
+    left: 0;
+    top: 0;
+    width: 65%;
+    height: 50%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    transition: 1s;
+  }
+  
+  .modal-content {
+    /* some rules */
+  }
+  
+  .close {
+    /* some rules */
+  }
+  
+  
+  body{
+    background: white;
+  }
+  .drop{
+    width: 70%;
+    height:250px;
+    background: -webkit-linear-gradient(90deg, #46f3ff,#007fbb,#64cfe7);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(90deg, #00728f,#00aeff,#64cfe7);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
+    border-radius: 80%;
+    transition: 0.15s;
+    margin: 16%;
+    margin-top: 200px;
+    box-shadow: 0 0 25px rgba(0, 110, 255, 0.466);
+  }
+  
+  .drop:active{
+    width: 65%;
+    height:240px;
+  
+  
+  }
+  
+  
+  .pol{
+    color: azure;
+    position: absolute;
+    font-size: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+  
+  
+  .img{
+    width: 15%;
+    height: 55px;
+    background: -webkit-linear-gradient(90deg, #dec86f,#ee3e55,#5400b8);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(-90deg, #dec86f,#ee3e55,#700fe6);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
+    border-radius: 100%;
+    margin-top: 20px;
+    margin-left: 10px;
+  
+  
+  }
+
+  .pedro{
+    display: flex;
+  }
+
+  .p_1{
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+  .p_2{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: grey;
+    position: relative;
+    left: 85px;
+    bottom: 33px;
+  }
+
+  .Homage{
+    width: 90%;
+    height: 90px;
+    background: linear-gradient(90deg, #3a34c5,#00aefc,#17f236);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
+  }
+
+  .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
